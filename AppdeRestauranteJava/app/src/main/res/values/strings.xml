@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">App de Restaurante -Java</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetuer_adipiscing_elit_sed_diam_nonummy_nibh_euismod_tincidunt_ut">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut</string>
+</resources>

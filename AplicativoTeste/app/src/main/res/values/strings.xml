@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aplicativo Teste</string>
+    <string name="titulo_from_cadastro">Cadastre-se</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_senha">Senha</string>
+    <string name="txt_botao_cadastrar">Cadastrar</string>
+    <string name="txt_botao_entrar">Entrar</string>
+    <string name="titulo_from_login">Login do Usuário</string>
+    <string name="text_cadastro">Crie uma conta clicando aqui</string>
+
+</resources>

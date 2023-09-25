@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AppDeRestauranteJava" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Definindo item para alterar a cor da barra do aplicativo. -->
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="Theme.AppDeRestauranteJava" parent="Base.Theme.AppDeRestauranteJava" />
+</resources>

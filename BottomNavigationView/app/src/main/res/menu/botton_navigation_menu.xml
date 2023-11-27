@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Principal"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/progress"
+        android:title="Progresso"
+        android:icon="@drawable/ic_launcher_estatistica"/>
+    <item
+        android:id="@+id/profile"
+        android:title="Perfil"
+        android:icon="@drawable/ic_launcher_person"/>
+    <item
+        android:id="@+id/setings"
+        android:title="Configurações"
+        android:icon="@drawable/baseline_settings_power_24"/>
+
+
+</menu>

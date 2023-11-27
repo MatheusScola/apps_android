@@ -9,13 +9,21 @@ import android.widget.Button;
 
 public class FormLogin extends AppCompatActivity {
 
-    private Button bt_tela_cadastro;
+    private Button bt_tela_cadastro, bt_login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form_login);
         IniciarComponentes();
+
+        bt_login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(FormLogin.this, FormPrincipal.class);
+                startActivity(intent);
+            }
+        });
 
         bt_tela_cadastro.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +39,7 @@ public class FormLogin extends AppCompatActivity {
 
     private void IniciarComponentes() {
         bt_tela_cadastro = findViewById(R.id.bt_tela_cadastro);
+        bt_login = findViewById(R.id.bt_Login);
     }
 
 }

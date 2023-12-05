@@ -13,6 +13,9 @@
         android:theme="@style/Theme.App_hiragana__katakana"
         tools:targetApi="31">
         <activity
+            android:name=".activity_form_principal"
+            android:exported="false" />
+        <activity
             android:name=".FormPrincipal"
             android:exported="false" />
         <activity

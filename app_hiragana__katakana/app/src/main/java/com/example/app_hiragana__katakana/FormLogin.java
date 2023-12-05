@@ -20,7 +20,7 @@ public class FormLogin extends AppCompatActivity {
         bt_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(FormLogin.this, FormPrincipal.class);
+                Intent intent = new Intent(FormLogin.this, activity_form_principal.class);
                 startActivity(intent);
             }
         });
